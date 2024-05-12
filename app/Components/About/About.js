@@ -8,12 +8,12 @@ export default function About() {
 			<h2 className='section--title'>About Me</h2>
 			<div className='container'>
 				<div className='About__inner'>
-					<Image width={200} height={400} src={'/placeholder.webp'} alt="it's me"></Image>
+					<Image width={200} height={400} src={'/me.png'} alt="it's me"></Image>
 					<div className='About--text'>
 						<h3>Learn More About Me</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, aspernatur. Nostrum vel quos non nihil, magnam delectus recusandae vitae eligendi. Fugiat sapiente deserunt atque eaque, ipsa natus accusamus cum necessitatibus!</p>
+						<p>Since the summer of 2022 I do website development more professional. During this time I was complete course by Skillfactory to Frontend developer. During this course I recognized a lot of Frontend part and some of Backend part (work with Databases)</p>
 						<br />
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, dignissimos. Tenetur commodi eaque fuga, quod cum molestias quam minus laborum. Cum nam sunt quis harum nostrum cumque, ex adipisci at.</p>
+						<p>I am very enthusiastic about what I do and I am always ready to learn something new. I have a lot of ideas for creating new projects in the future and filling my portfolio with interesting materials.</p>
 					</div>
 				</div>
 			</div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Footer.css';
 
-import {FaLinkedin, FaGithub} from 'react-icons/fa';
+import {FaLinkedin, FaGithub, FaTelegram} from 'react-icons/fa';
 import Link from 'next/link';
 
 export default function Footer() {
@@ -14,6 +14,9 @@ export default function Footer() {
 						<div className='Footer__socials'>
 							<Link target='_blank' href={'https://www.linkedin.com/in/alexander-kuznecov/'}>
 								<FaLinkedin />
+							</Link>
+							<Link target='_blank' href={'https://t.me/kznws'}>
+								<FaTelegram />
 							</Link>
 							<Link target='_blank' href={'https://github.com/alexkuznecov16'}>
 								<FaGithub />
