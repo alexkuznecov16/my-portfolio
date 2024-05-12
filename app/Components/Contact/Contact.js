@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Contact() {
 	return (
-		<div data-aos='fade-up' id='contact' className='Contact'>
+		<div id='contact' className='Contact'>
 			<h2 className='section--title'>Contact</h2>
 			<div className='container'>
 				<div className='Contact__inner'>
