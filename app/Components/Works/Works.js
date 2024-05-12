@@ -42,7 +42,7 @@ export default function Works() {
 		},
 	];
 	return (
-		<div id='works' className='Works'>
+		<div data-aos='fade-up' id='works' className='Works'>
 			<h2 className='section--title'>Works</h2>
 			<div className='container'>
 				<div className='Works__inner'>

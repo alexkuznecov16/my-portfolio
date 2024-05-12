@@ -50,7 +50,7 @@ export default function Skills() {
 		},
 	];
 	return (
-		<div id='skills' className='Skills'>
+		<div data-aos='fade-up' id='skills' className='Skills'>
 			<h2 className='section--title'>Skills</h2>
 			<div className='container'>
 				<div className='Skills__inner'>

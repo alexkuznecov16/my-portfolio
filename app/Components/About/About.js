@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 export default function About() {
 	return (
-		<div id='about' className='About'>
+		<div data-aos='fade-up' id='about' className='About'>
 			<h2 className='section--title'>About Me</h2>
 			<div className='container'>
 				<div className='About__inner'>

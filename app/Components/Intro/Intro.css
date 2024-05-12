@@ -40,7 +40,7 @@
   margin-block: 30px 0;
 }
 
-.Intro__inner .Intro--buttons button {
+.Intro__inner .Intro--buttons a.button {
   cursor: pointer;
   padding: 8px 19px;
   font-size: clamp(9px, 4vw, 20px);
@@ -61,11 +61,11 @@
   font-weight: bold;
 }
 
-.Intro__inner .Intro--buttons button:last-child {
+.Intro__inner .Intro--buttons a.button:last-child {
   background-color: transparent;
 }
 
-.Intro__inner .Intro--buttons button:last-child:hover {
+.Intro__inner .Intro--buttons a.button:last-child:hover {
   background-color: #4f81f3;
 }
 
