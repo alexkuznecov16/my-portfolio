@@ -1,0 +1,33 @@
+.Footer {
+  width: 100%;
+  padding: 20px 0;
+  background-color: #111111;
+  border-top: 1px solid rgba(212, 212, 212, 0.089);
+}
+
+.Footer__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Footer__socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Footer__socials svg {
+  font-size: 28px;
+  margin: 7px 10px 20px 10px;
+  -webkit-transition: opacity .3s ease;
+  -moz-transition: opacity .3s ease;
+  -ms-transition: opacity .3s ease;
+  -o-transition: opacity .3s ease;
+  transition: opacity .3s ease;
+}
+
+.Footer__socials svg:hover {
+  opacity: .3;
+}

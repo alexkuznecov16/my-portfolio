@@ -1,0 +1,55 @@
+.Contact {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.Contact__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.Contact--text {
+  width: 40%;
+}
+
+.Contact--text h4 {
+  color: #4f81f3;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.Contact--text a {
+  padding-bottom: 3px;
+  border-bottom: 1px solid #fff;
+  -webkit-transition: opacity .3s ease;
+  -moz-transition: opacity .3s ease;
+  -ms-transition: opacity .3s ease;
+  -o-transition: opacity .3s ease;
+  transition: opacity .3s ease;
+}
+
+.Contact--text a:hover {
+  opacity: .3;
+}
+
+.Contact__inner iframe {
+  width: 40%;
+  height: 300px;
+}
+
+@media screen and (max-width: 800px) {
+  .Contact__inner {
+    flex-direction: column;
+  }
+
+  .Contact--text {
+    margin-bottom: 20px;
+  }
+  
+  .Contact__inner iframe {
+    width: 100%;
+  }
+}

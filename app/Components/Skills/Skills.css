@@ -1,0 +1,133 @@
+.Skills {
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Skills__inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.Skills__block, .Skills__image {
+  width: 35%;
+  margin: 0 20px;
+}
+
+.Skills__block {
+  padding: 16px 0;
+}
+
+.Skills__image {
+  height: auto;
+}
+
+.Skill--item {
+  margin-block: 20px 0;
+}
+
+.Skill--item--title {
+  display: flex;
+  text-align: left;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: clamp(8px, 14px, 18px);
+}
+
+.Skill--item--title__images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Skill--item--title__images .icon {
+  margin-left: 10px;
+}
+
+.Skill--item--title__images svg {
+  font-size: 20px;
+}
+
+.bar__block {
+  width: 100%;
+  height: 6px;
+  background-color: gray;
+  position: relative;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.bar__block .bar--item {
+  position: absolute;
+  left: 0;
+  height: 6px;
+  background-color: #4f81f3;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+
+#next {
+  color: #00008B; /* DarkBlue */
+}
+
+#react {
+  color: #61DAFB; /* SkyBlue */
+}
+
+#mysql {
+  color: #00758F; /* DarkCyan */
+}
+
+#typescript {
+  color: #007ACC; /* DeepSkyBlue */
+}
+
+#javascript {
+  color: #F0DB4F; /* Yellow */
+}
+
+#mobx {
+  color: #FF9955; /* Orange */
+}
+
+#redux {
+  color: #764ABC; /* SlateBlue */
+}
+
+#node {
+  color: #0ec50e; /* Green */
+}
+
+#python {
+  color: #306998; /* MediumSlateBlue */
+}
+
+#sass {
+  color: #CC6699; /* MediumVioletRed */
+}
+
+#tailwind {
+  color: #38B2AC; /* Teal */
+}
+
+@media screen and (max-width: 900px) {
+  .Skills__inner {
+    flex-direction: column;
+  }
+  .Skills__block, .Skills__image {
+    width: 100%;
+    margin: 20px 0;
+  }
+}

@@ -1,0 +1,104 @@
+.Intro {
+  width: 100%;
+  height: 100vh;
+  padding: 70px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Intro__inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Intro__inner h1 {
+  font-size: clamp(20px, 13vw, 90px);
+  font-weight: bold;
+  margin-block: 40px;
+}
+
+.Intro__inner h1 span {
+  background: #B7DEED;
+  background: linear-gradient(to right, #4f81f3 0%, #4f81f3 25%, rgb(239, 149, 239) 75%, violet  100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Intro__inner p {
+  opacity: 56%;
+  width: 50%;
+  font-size: clamp(8px, 34vw, 16px);
+}
+
+.Intro__inner .Intro--buttons {
+  margin-block: 30px 0;
+}
+
+.Intro__inner .Intro--buttons button {
+  cursor: pointer;
+  padding: 8px 19px;
+  font-size: clamp(9px, 4vw, 20px);
+  background-color: #4f81f3;
+  border: 2px solid #4f81f3;
+  margin: 0 7px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  color: #fff;
+  -webkit-transition: .2s linear;
+  -moz-transition: .2s linear;
+  -ms-transition: .2s linear;
+  -o-transition: .2s linear;
+  transition: .2s linear;
+  font-weight: bold;
+}
+
+.Intro__inner .Intro--buttons button:last-child {
+  background-color: transparent;
+}
+
+.Intro__inner .Intro--buttons button:last-child:hover {
+  background-color: #4f81f3;
+}
+
+.Intro--socials {
+  width: 80%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Intro--socials__item {
+  margin: 0 auto;
+  width: 20%;
+}
+
+.Intro--socials__item svg {
+  cursor: pointer;
+  font-size: 30px;
+  color: #fff;
+  -webkit-transition: .2s linear;
+  -moz-transition: .2s linear;
+  -ms-transition: .2s linear;
+  -o-transition: .2s linear;
+  transition: .2s linear;
+}
+
+.Intro--socials__item svg:hover {
+  color: #4f81f3;
+}
+
+@media screen and (max-width: 800px) {
+  .Intro__inner p {
+    width: 75%;
+  }
+}
