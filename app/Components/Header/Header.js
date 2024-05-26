@@ -32,6 +32,9 @@ export default function Header() {
 							<Link href={'#about'}>About Me</Link>
 						</div>
 						<div className='nav__item'>
+							<Link href={'#services'}>Services</Link>
+						</div>
+						<div className='nav__item'>
 							<Link href={'#skills'}>Skills</Link>
 						</div>
 						<div className='nav__item'>
@@ -55,6 +58,11 @@ export default function Header() {
 									<div className='mobile--nav__item'>
 										<Link href={'#about'} onClick={() => setMobileMenuOpen(false)}>
 											About Me
+										</Link>
+									</div>
+									<div className='mobile--nav__item'>
+										<Link href={'#services'} onClick={() => setMobileMenuOpen(false)}>
+											Services
 										</Link>
 									</div>
 									<div className='mobile--nav__item'>

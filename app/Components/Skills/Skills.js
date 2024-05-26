@@ -73,7 +73,7 @@ export default function Skills() {
 							</div>
 						))}
 					</div>
-					<Image className='Skills__image' width={300} height={400} src='/laptop.jpg'></Image>
+					<Image alt='laptop' className='Skills__image' width={300} height={400} src='/laptop.jpg'></Image>
 				</div>
 			</div>
 		</div>

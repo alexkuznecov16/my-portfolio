@@ -33,7 +33,7 @@
 
 .Works--item img {
   min-width: 100%;
-  height: auto;
+  height: revert-layer;
   display: block;
 }
 

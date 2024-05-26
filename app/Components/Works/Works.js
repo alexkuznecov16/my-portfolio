@@ -6,6 +6,11 @@ import Link from 'next/link';
 export default function Works() {
 	const worksData = [
 		{
+			name: 'Hotel Reservations',
+			link: 'https://github.com/alexkuznecov16/hotel_desktop',
+			img: '/hotel.jpg',
+		},
+		{
 			name: 'Football Club',
 			link: 'https://github.com/alexkuznecov16/football-club',
 			img: '/fk-spartak.svg',
