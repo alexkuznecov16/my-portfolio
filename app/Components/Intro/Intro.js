@@ -20,7 +20,7 @@ export default function Intro() {
 						<Link href={'https://t.me/kznws'} className='button' title='Write Me'>
 							Contact Me
 						</Link>
-						<Link href={'/resume_FRONTEND_alexander-kuznecov.pdf'} download={true} className='button' title='Download Resume'>
+						<Link href={'/resume_FRONTEND_alexander-kuznecov-en.pdf'} download={true} className='button' title='Download Resume'>
 							My Resume
 						</Link>
 					</div>
